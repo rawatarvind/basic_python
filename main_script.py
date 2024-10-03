@@ -10,4 +10,5 @@ centos_packages = ['vim', 'git','google-chrome', 'skypeforlinux.x86_64', 'zoom.x
 deb_package_directory = '/home/sarvind/Ubuntu_packages'
 
 # Call the main function to install packages based on the OS
-main(centos_packages, deb_package_directory)
+if __name__ == "__main__":
+    main(centos_packages, deb_package_directory)
